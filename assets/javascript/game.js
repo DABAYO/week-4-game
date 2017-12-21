@@ -11,7 +11,7 @@ $('#loss').text(losses);
 crystalsNew();
 startGame();
 
-function crystalsNew () {
+function crystalsNew() {
     var numbers = []
         while(numbers.length < 4) {
             var randomnumber = Math.ceil(Math.random()*12)
@@ -35,7 +35,7 @@ function crystalsNew () {
 
 function startGame() {
     counter = 0;
-    $('#yourScore).text(counter);
+    $('#yourScore').text(counter);
 
     function randomIntFromInterval(min,max) {
         return Math.floor(math.random()*(max-min+1)+min);
