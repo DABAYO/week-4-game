@@ -1,0 +1,65 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+h1 {
+    background-color: rgb(192, 106, 8);
+    color: white;
+    display:inline;
+    clear:both;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: solid 1px white;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 960px;
+}
+
+#instructions {
+    background-color: white;
+    width: 50%;
+    clear: both;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#numberGuess {
+    background-color: green;
+    float: left;
+    display: inline-block;
+    padding: 20 px;
+    margin-top: 20 px;
+    border: 10px green;
+}
+
+#score {
+    background-color: aqua;
+    display: inline-block;
+    padding: 15px 20px 10px 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#crystals {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.crystalImage {
+    height: 100px;
+    margin-left: 10px;
+}
+
+.crystalImage:firstchild {
+    margin-left: 0;
+}
+
+#totalScore {
+    margin-bottom: 50px;
+}
+
+#ts {
+    background-color: rgb(6, 85, 6);
+}
